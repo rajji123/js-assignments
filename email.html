@@ -1,0 +1,13 @@
+<script>
+
+function  BiggerElements(val)
+{
+return function(evalue,index,array)
+{
+return(evalue >= val);
+};
+}
+var result=[11,45,4,31,64,18].filter(BiggerElements(10));
+document.writeln(result);
+</script>
+</script>
